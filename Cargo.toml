@@ -9,7 +9,7 @@ version = "0.8.0"
 
 [dependencies]
 minidumper-child = "0.2"
-sentry = "0.34"
+sentry = { version = "0.34", features = ["debug-images"] }
 thiserror = "1"
 serde = { version = "1", features = ["derive"], optional = true }
 serde_json = { version = "1", optional = true }
