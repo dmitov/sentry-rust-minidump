@@ -5,7 +5,7 @@ license = "MIT OR Apache-2.0"
 name = "sentry-rust-minidump"
 readme = "README.md"
 repository = "https://github.com/timfish/sentry-rust-minidump"
-version = "0.7.0"
+version = "0.8.0"
 
 [dependencies]
 minidumper-child = "0.2"
@@ -17,7 +17,7 @@ serde_json = { version = "1", optional = true }
 [dev-dependencies]
 actix-rt = "2.7"
 sadness-generator = "0.5"
-sentry-test-server = {git = "https://github.com/timfish/sentry-test-server.git", rev = "df19c85"}
+sentry-test-server = {git = "https://github.com/timfish/sentry-test-server.git", rev = "3845172"}
 
 [features]
 ipc = [ "dep:serde", "dep:serde_json"]
